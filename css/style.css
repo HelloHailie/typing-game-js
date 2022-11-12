@@ -1,3 +1,62 @@
 * {
   font-family: "Do Hyeon", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.word-display {
+  margin: 3rem 0rem;
+  font-size: 5rem;
+  color: blue;
+}
+
+.word-input {
+  padding: 0.5rem;
+  width: 15rem;
+}
+
+.game-info {
+  margin: 10px 0px;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 25rem;
+}
+
+.time,
+.score {
+  font-size: 3rem;
+}
+
+.button {
+  width: 10rem;
+  height: 3rem;
+  margin-top: 2rem;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+}
+
+.loading {
+  background-color: gray;
+  color: white;
+  cursor: wait;
 }
